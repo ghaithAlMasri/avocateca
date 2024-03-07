@@ -37,8 +37,9 @@ const Hero = () => {
 
           <div className="flex md:justify-start md:items-start justify-center items-center flex-col gap-7">
             <h1 className="text-text-color text-center md:text-left font-martel md:text-[62px] tracking-[0.2px] leading-[65px] text-[42px] font-black">
-              Navigarea complexității
-              <br /> juridice cu Avocateca
+              Fiecare caz este o poveste. 
+              <br />
+              Avocateca este autorul succesului tau!
             </h1>
             <h2 className="font-sans text-[21px] text-black font-medium md:text-[20px] leading-[30px] tracking-[0.2px] md:text-second-text-color text-center md:text-left">
               Unde se întâlnește integritatea cu advocacy.
