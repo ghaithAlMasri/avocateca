@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import cover from "/public/cover.png";
+import Card from './card'
 
 import { motion } from "framer-motion";
 
@@ -13,7 +14,7 @@ const Hero = () => {
       transition={{ duration: 1, type: 'tween' }}
       id="home"
     >
-      <div className="w-full h-[80vh] absolute z-[0]">
+      <div className="w-full h-[80vh] absolute">
         <div
           className="absolute top-0 left-0 w-full h-full bg-black opacity-15"
           style={{
@@ -27,11 +28,12 @@ const Hero = () => {
           width={1000}
           height={1000}
           alt="cover image"
+          priority
         />
       </div>
 
-      <div className="flex justify-start items-start w-full flex-col p-20 z-[1] gap-60">
-        <div className="flex justify-start items-start gap-5 flex-col">
+      <div className="flex justify-center items-center md:justify-start md:items-start w-full flex-col p-20 z-[1] gap-[120px] 2xl:gap-[400px]">
+        <div className="flex md:justify-start justify-center items-center md:items-start gap-5 flex-col">
 
           <div className="flex md:justify-start md:items-start justify-center items-center flex-col gap-7">
             <h1 className="text-text-color text-center md:text-left font-martel md:text-[62px] tracking-[0.2px] leading-[65px] text-[42px] font-black">
@@ -59,7 +61,12 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div>ROW 2</div>
+
+        <div className="flex justify-center items-center text-center w-full gap-10 text-wrap flex-wrap">
+          <Card text={"Drept Penal"} iconPath={"/icon1.svg"} color="light-background-color" textColor={"text-color"}/>
+          <Card text={"Dreptul Familiei"} iconPath={"/icon2.svg"} color="light-background-color" textColor={"text-color"}/>
+          <Card text={"Drept Comercial"} iconPath={"/icon3.svg"} color="none" classes="bg-secondary-color-4" textColor={"white"}/>
+        </div>
       </div>
     </motion.div>
   );

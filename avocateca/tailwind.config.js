@@ -37,6 +37,9 @@ module.exports = {
       },
       fontFamily : {
         "martel": "Martel"
+      },
+      boxShadow:{
+        'cards':'rgb(38, 57, 77) 0px 20px 30px -10px',
       }
     },
   },
