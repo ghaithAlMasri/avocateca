@@ -53,7 +53,7 @@ const Hero = () => {
 
             <a
               href="#services"
-              className="text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-3 text-white border-secondary-color-3 md:bg-transparent md:text-secondary-color-2 shadow-xl transition-all duration-500 ease-in-out border md:border-secondary-color-2 md:hover:bg-secondary-color-3 hover:text-secondary-color-3 hover:bg-transparent hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98] md:hover:bg-transparent md:hover:text-white"
+              className="text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-3 md:hover:text-secondary-color-3 text-white border-secondary-color-3 md:bg-transparent md:text-secondary-color-2 shadow-xl transition-all duration-500 ease-in-out border md:border-secondary-color-2 md:hover:bg-secondary-color-3 hover:text-secondary-color-3 hover:bg-transparent hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98] md:hover:bg-transparent"
             >
               Servicii
             </a>
