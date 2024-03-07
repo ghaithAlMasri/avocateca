@@ -12,6 +12,32 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "primary-color": "#D0A144",
+        "secondary-color-1": "#FDB602",
+        "secondary-color-2":"#784F33",
+        "secondary-color-3": "#DBB468",
+        "secondary-color-4": "#295C7A",
+        "text-color": "#252B42",
+        "second-text-color": "#737373",
+        "light-text-color": "#FFFFFF",
+        "dark-background-color": "#252B42",
+        "light-background-color": "#FAFAFA",
+        "hover-color": "#2A7CC7",
+        "disabled-element-color": "#8EC2F2",
+        "muted-color": "#BDBDBD",
+        "success-color": "#2DC071",
+        "alert-color": "#E77C40",
+        "danger-color": "#E74040",
+      },
+      backgroundImage : {
+        "background-gradient-1": "radial-gradient(circle, #295c7a, #216288, #176897, #0a6da6, #0072b5)",
+        'hero-image': "url('/cover.jpg')",
+
+      },
+      fontFamily : {
+        "martel": "Martel"
+      }
     },
   },
   plugins: [],
