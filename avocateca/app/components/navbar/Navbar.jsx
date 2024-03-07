@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import { MdClose, MdMenu } from "react-icons/md";
 
 const Navbar = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [mobileMenu, setMobileMenu] = useState(false);
+  const windowWidth= useWindowSize()
 
   const handleMenuClick = () => {
     setMobileMenu(!mobileMenu);
@@ -29,18 +29,6 @@ const Navbar = () => {
       },
     },
   };
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
 
   const NavItem = ({ href, children }) => (
     <li onClick={handleMenuClick} className="hover:text-hover-color ease-in-out duration-300 hover:scale-90">
@@ -148,6 +136,22 @@ const Navbar = () => {
       </div>
     );
   }
-};
+  function useWindowSize() {
+    const [windowSize, setWindowSize] = useState(undefined);
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowSize(window.innerWidth);
+      }
+      
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+      
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+    return windowSize;
+  }
+}
 
 export default Navbar;
