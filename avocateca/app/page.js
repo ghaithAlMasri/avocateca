@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="w-full h-screen font-martel bg-light-background-color">
       <Navbar />
-      <Hero id="home"/>
+      <Hero />
     </main>
   );
 }

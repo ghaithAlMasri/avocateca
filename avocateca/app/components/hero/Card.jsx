@@ -8,7 +8,6 @@ const card = ({ text, color, classes, iconPath, textColor }) => {
         <div className="flex justify-center items-start w-full flex-col gap-3">
             <Image src={iconPath} width={48} height={48} className="object-contain flex justify-center items-center" />
             <div className={`text-center font-martel text-[20px] 2xl:text-[30px] text-${textColor} leading-[32px] tracking-[0.1px]`}>{text}</div>
-
         </div>
     </div>
   );
