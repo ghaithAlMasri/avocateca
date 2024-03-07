@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import cover from "/public/cover.png";
-import Card from './card'
+import Card from '@/app/components/hero/Card.jsx'
 
 import { motion } from "framer-motion";
 
@@ -12,7 +12,6 @@ const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, type: 'tween' }}
-      id="home"
     >
       <div className="w-full h-[80vh] absolute">
         <div
