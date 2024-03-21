@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-      className="w-full h-screen relative flex justify-start items-center flex-col bg-light-background-color scroll-smooth mb-20"
+      className="w-full relative flex justify-start items-center flex-col bg-light-background-color scroll-smooth border border-red-400"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, type: 'tween' }}

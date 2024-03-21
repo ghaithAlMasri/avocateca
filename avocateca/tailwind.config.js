@@ -22,7 +22,7 @@ module.exports = {
         "second-text-color": "#737373",
         "light-text-color": "#FFFFFF",
         "dark-background-color": "#252B42",
-        "light-background-color": "#FAFAFA",
+        "light-background-color": "#FFFFFF",
         "hover-color": "#2A7CC7",
         "disabled-element-color": "#8EC2F2",
         "muted-color": "#BDBDBD",
