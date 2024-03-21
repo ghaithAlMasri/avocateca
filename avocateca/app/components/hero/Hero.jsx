@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-      className="w-full relative flex justify-start items-center flex-col bg-white scroll-smooth"
+      className="w-full relative flex justify-start items-center flex-col bg-white scroll-smooth overflow-y-hidden"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1, type: 'tween' }}
@@ -32,31 +32,31 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center items-center md:justify-start md:items-start w-full flex-col p-20 z-[1] gap-[120px] 2xl:gap-[400px]">
+      <div className="flex justify-center items-center md:justify-start md:items-start w-full flex-col p-20 z-[1] gap-[120px] 2xl:gap-[600px]">
         <div className="flex md:justify-start justify-center items-center md:items-start gap-5 flex-col">
 
-          <div className="flex md:justify-start md:items-start justify-center items-center flex-col gap-7">
-            <h1 className="text-text-color text-center md:text-left font-martel md:text-[62px] tracking-[0.2px] leading-[65px] text-[42px] font-black">
+          <div className="flex md:justify-start md:items-start justify-center items-center flex-col 3xl:gap-[7rem] gap-7">
+            <h1 className="text-text-color text-center md:text-left font-martel md:text-[62px] 3xl:text-[120px] 3xl:leading-[120px] tracking-[0.2px] leading-[65px] text-[42px] font-black">
               Fiecare caz este o poveste. 
               <br />
               Avocateca este autorul <br /> succesului tău!
             </h1>
-            <h2 className="font-sans text-[21px] text-black font-medium md:text-[20px] leading-[30px] tracking-[0.2px] md:text-second-text-color text-center md:text-left">
+            <h2 className="font-sans text-[21px] text-black font-medium md:text-[20px] 3xl:text-[40px] 3xl:leading-[40px] leading-[30px] tracking-[0.2px] md:text-second-text-color text-center md:text-left">
                 Unde drepturile sunt amenințate, <br/> Avocateca se ridică și apărarea învinge!
             </h2>
           </div>
 
-          <div className="flex justify-center w-full items-center gap-5 md:gap-20 flex-col md:flex-row md:justify-start md:items-start">
+          <div className="flex justify-center w-full items-center gap-5 3xl:gap-[5rem] md:gap-20 flex-col md:flex-row md:justify-start md:items-start">
             <a
               href="#contact"
-              className={`text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-2 text-white shadow-xl transition-all duration-500 ease-in-out border border-secondary-color-2 hover:bg-secondary-color-3 hover:text-white hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98]`}
+              className={`text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-2 text-white shadow-xl transition-all duration-500 ease-in-out border border-secondary-color-2 hover:bg-secondary-color-3 hover:text-white hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98] 3xl:w-[303px] 3xl:h-[72.14px] 3xl:text-[30px]`}
             >
               Contactați-ne
             </a>
 
             <a
               href="#services"
-              className="text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-3 md:hover:text-secondary-color-3 text-white border-secondary-color-3 md:bg-transparent md:text-secondary-color-2 shadow-xl transition-all duration-500 ease-in-out border md:border-secondary-color-2 md:hover:bg-secondary-color-3 hover:text-secondary-color-3 hover:bg-transparent hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98] md:hover:bg-transparent"
+              className="text-center py-[5px] px-[28px] w-[153px] height-[36px] md:py-[10px] md:px-[36px] md:w-[182px] md:height-[48px] rounded-[37px] bg-secondary-color-3 md:hover:text-secondary-color-3 text-white border-secondary-color-3 md:bg-transparent md:text-secondary-color-2 shadow-xl transition-all duration-500 ease-in-out border md:border-secondary-color-2 md:hover:bg-secondary-color-3 hover:text-secondary-color-3 hover:bg-transparent hover:shadow-none hover:border-secondary-color-3 hover:opacity-[0.98] md:hover:bg-transparent 3xl:w-[303px] 3xl:h-[72.14px] 3xl:text-[30px]"
             >
               Servicii
             </a>

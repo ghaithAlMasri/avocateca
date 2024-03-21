@@ -90,15 +90,15 @@ const Navbar = () => {
           <a href="#home">
             <Image
               src={"/logo-no-background.png"}
-              width={windowWidth > 1250 ? 125 : 100}
-              height={windowWidth > 1250 ? 125 : 100}
+              width={windowWidth >= 2200 ? 300 : windowWidth > 1250 ? 125 : 100}
+              height={windowWidth >= 2200 ? 300 : windowWidth > 1250 ? 125 : 100}
               alt={"Avocateca Logo"}
-              className="object-contain w-auto h-auto"
+              className="object-contain"
               priority
             />
           </a>
         </div>
-        <div className="flex justify-center items-center gap-10 list-none text-sm lg:text-sm xl:text-md 2xl:text-lg">
+        <div className="flex justify-center items-center gap-10 list-none text-sm lg:text-sm xl:text-md 2xl:text-lg 3xl:text-[30px]">
           <NavItem href="#home">Acasă</NavItem>
           <NavItem href="#services">Servicii</NavItem>
           <NavItem href="#about">Despre noi</NavItem>
