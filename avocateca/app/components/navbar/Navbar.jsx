@@ -71,7 +71,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className={`bg-light-background-color ${windowWidth > 720 ? 'px-20' : 'px-10'} py-3 text-second-text-color shadow-xl fixed w-full h-fit z-10 mb-10`}
+    <div className={`bg-light-background-color ${windowWidth > 720 ? 'px-20' : 'px-10'} py-3 text-second-text-color shadow-xl fixed w-full h-fit z-50 mb-10`}
     >
       <div className="flex justify-between items-center w-full h-fit">
         {windowWidth > 720 ? (
