@@ -1,14 +1,14 @@
 "use client";
 import Image from "next/image";
 import cover from "/public/cover.png";
-import Card from '@/app/components/hero/Card.jsx'
+import Card from '@/app/components/general/Card.jsx'
 
 import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <motion.div
-      className="w-full relative flex justify-start items-center flex-col bg-light-background-color scroll-smooth border border-red-400"
+      className="w-full relative flex justify-start items-center flex-col bg-white scroll-smooth"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, type: 'tween' }}

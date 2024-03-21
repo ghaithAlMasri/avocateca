@@ -1,10 +1,16 @@
-import React from 'react'
+"use client"
+
+import {motion} from 'framer-motion'
 
 const Features = () => {
   return (
-    <div>
+    <motion.div 
+    className='flex justify-center items-center flex-col p-8 bg-light-background-color'
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    >
       FEATURES
-    </div>
+    </motion.div>
   )
 }
 
