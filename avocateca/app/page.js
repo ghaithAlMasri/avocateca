@@ -4,6 +4,9 @@ import Features from "@/app/components/features/Features";
 import Services from "@/app/components/services/Services";
 import About from "@/app/components/about/About";
 import Certificates from "@/app/components/certificates/Certificates";
+import Contact from "@/app/components/contact/Contact";
+import Footer from "@/app/components/footer/Footer";
+
 
 
 export default function Home() {
@@ -15,6 +18,8 @@ export default function Home() {
       <Services />
       <About />
       <Certificates />
+      <Contact />
+      <Footer />
     </main>
   );
 }

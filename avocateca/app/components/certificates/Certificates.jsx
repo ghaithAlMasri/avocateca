@@ -24,8 +24,8 @@ const Certificates = () => {
         </div>
 
         <div 
-        className='flex justify-center md:justify-around items-center w-[90%] h-fit rounded-sm p-8 flex-col md:flex-row gap-8' 
-        style={{backgroundImage: 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%)'}}>
+        className='flex justify-center md:justify-around items-center w-[90%] h-fit rounded-sm p-8 flex-col md:flex-row gap-8 bg-background-gradient-3' 
+        >
             <h3 className='text-white font-martel font-bold text-center text-xl w-full md:w-[45%] 3xl:text-2xl'>Experți profesioniști certificați la dispoziția dumneavoastră</h3>
             <a href='#contact' className='bg-primary-color border border-primary-color text-light-text-color font-martel font-normal text-sm leading-7 px-4 py-2 rounded-md transition-all hover:opacity-80 duration-300 hover:scale-95 ease-in-out 3xl:text-2xl'> Contactați-ne </a>
         </div>

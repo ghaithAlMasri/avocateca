@@ -13,6 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "background-gradient-1": "radial-gradient(circle, #295c7a, #216288, #176897, #0a6da6, #0072b5)",
         "background-gradient-2": "linear-gradient(360deg, hsla(228, 28%, 20%, 1) 0%, hsla(0, 0%, 0%, 1) 100%)",
+        "background-gradient-3":"linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%)",
         'hero-image': "url('/cover.jpg')",
       },
       colors: {
