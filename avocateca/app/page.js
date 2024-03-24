@@ -1,8 +1,9 @@
 import Navbar from "@/app/components/navbar/Navbar";
 import Hero from "@/app/components/hero/Hero"
-import Features from "./components/features/Features";
-import Services from "./components/services/Services";
-import About from "./components/about/About";
+import Features from "@/app/components/features/Features";
+import Services from "@/app/components/services/Services";
+import About from "@/app/components/about/About";
+import Certificates from "@/app/components/certificates/Certificates";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Services />
       <About />
+      <Certificates />
     </main>
   );
 }
