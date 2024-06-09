@@ -1,7 +1,9 @@
 "use client"
 import Image from 'next/image'
-import cert1 from "/public/cert1.png";
-import cert2 from "/public/cert2.png";
+import rivera from "/public/rivera.jpg";
+import pandora from "/public/pandora.jpg";
+import therapy from "/public/therapy.jpg";
+import casaAlba from "/public/casaAlba.jpg";
 
 
 import {motion} from 'framer-motion'
@@ -19,8 +21,10 @@ const Certificates = () => {
     <div className='flex justify-center items-center w-full p-8 flex-col gap-4 z-10'>
 
         <div className='flex justify-around items-center w-full flex-col md:flex-row z-10'>
-            <Image width={145} height={145} className='object-contain md:w-auto md:h-auto 3xl:w-50 3xl:h-50' src={cert1}/>
-            <Image width={150} height={150} className='object-contain md:w-auto md:h-auto w-20 h-20 3xl:w-50 3xl:h-50' src={cert2}/>
+            <Image width={145} height={145} className='object-contain md:w-auto md:h-auto 3xl:w-50 3xl:h-50' src={rivera}/>
+            <Image width={100} height={100} className='object-contain md:w-auto md:h-auto w-20 h-20 3xl:w-50 3xl:h-50' src={pandora}/>
+            <Image width={100} height={100} className='object-contain md:w-auto md:h-auto w-20 h-20 3xl:w-50 3xl:h-50' src={therapy}/>
+            <Image width={100} height={100} className='object-contain md:w-auto md:h-auto w-20 h-20 3xl:w-50 3xl:h-50' src={casaAlba}/>
         </div>
 
         <div 
