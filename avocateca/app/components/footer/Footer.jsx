@@ -77,7 +77,7 @@ const contact = () => {
         </div>
       </div>
       <div className="bg-white text-second-text-color w-full absolute bottom-0 left-0 text-center">
-        @2024 AVOCATECTA ALL RIGHTS RESERVED
+        @2024 AVOCATECA ALL RIGHTS RESERVED
       </div>
     </motion.div>
   );
