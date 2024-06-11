@@ -54,7 +54,7 @@ const Services = () => {
         whileInView = {{ opacity:1, rotate: [-180, 0], scale: [0.5,1,1.2,1], transition: {type: "spring", stiffness: 80, damping: 10, delay: 0.6} }}
 
         >
-          <Card text={"Infracțiuni legate de trafic"} iconPath={"/service3.jpg"} color="light-background-color" textColor={"text-color"} subText={"Combatting the serious implications of trafficking offenses, our specialized legal team employs a proactive approach to defense, crafting robust strategies to challenge allegations and protect the liberties of those accused."} subTextColor={"second-text-color"} type={3}/>
+          <Card text={"Infracțiuni legate de trafic"} iconPath={"/service4.jpg"} color="light-background-color" textColor={"text-color"} subText={"Combatting the serious implications of trafficking offenses, our specialized legal team employs a proactive approach to defense, crafting robust strategies to challenge allegations and protect the liberties of those accused."} subTextColor={"second-text-color"} type={3}/>
         </motion.div>
       </motion.div>
 
