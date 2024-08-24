@@ -16,18 +16,18 @@ const contact = () => {
 
       <div className="flex justify-center items-center flex-col md:max-w-[50%] sm:max-w-[90%] text-wrap align-middle text-center gap-3 p-10">
         <h2 className="font-martel font-bold text-[30px] md:text-[40px] text-dark-background-color 2xl:text-[50px] 3xl:text-[60px]">
-        Intrați în contact
+        Intrați în <span className='text-primary-color'>contact</span>
         </h2>
         <p className="font-serif md:text-sm text-second-text-color 2xl:text-2xl 3xl:text-3xl">
-          Obțineți o consultație gratuită astăzi!
+          Obțineți o consultație astăzi!
         </p>
       </div>
 
 
       <div className="w-[95%] md:h-[490px] flex justify-center items-center gap-8 flex-col md:gap-0 md:flex-row">
-        <ContactCard textTop = "Sunați-ne" color={'white'} height = {"90%"} logoPath={'/phone.svg'} link={"tel:+40723864444"} textBottom="Trimiteți o cerere"/>
-        <ContactCard textTop = "Locația noastră" color={'dark-background-color'} height = {"full"} logoPath={'/maps.svg'} link={"https://maps.app.goo.gl/QxGZbCPG6Fi6NLCdA"} className="flex justify-center items-center" textBottom="Trimiteți o cerere"/>
-        <ContactCard textTop = "Trimiteți-ne un e-mail" color={'white'} height = {"90%"} logoPath={'/mail.svg'} textBottom="Trimiteți o cerere" link={"mailto:manuela.florea@yahoo.com"}/>
+        <ContactCard textTop = "Sunați-ne" color={'white'} height = {"90%"} logoPath={'/phone.svg'} link={"tel:+40723864444"} textBottom="vezi numărul de telefon"/>
+        <ContactCard textTop = "Locația noastră" color={'dark-background-color'} height = {"full"} logoPath={'/maps.svg'} link={"https://maps.app.goo.gl/QxGZbCPG6Fi6NLCdA"} className="flex justify-center items-center" textBottom="Vezi locația"/>
+        <ContactCard textTop = "Trimiteți-ne un e-mail" color={'white'} height = {"90%"} logoPath={'/mail.svg'} textBottom="Vezi mail" link={"mailto:manuela.florea@yahoo.com"}/>
       </div>
 
     </motion.div>

@@ -52,28 +52,26 @@ const contact = () => {
           <h5 className="text-lg font-bold">Socials</h5>
 
           <div className="flex justify-center items-start w-full flex-col gap-2">
-            <div className="flex justify-center items-center gap-2">
-              <a href="https://instagram.com" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
-                <FaInstagram className="w-9 h-9" />
-              </a>
+            <div className="flex justify-center items-center gap-4">
               <a href="https://facebook.com" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
                 <FaFacebook className="w-9 h-9" />
               </a>
-            </div>
-            <div className="flex justify-center items-center gap-2">
               <a href="https://wa.me/40723864444" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
                 <FaWhatsapp className="w-9 h-9" />
               </a>
+            </div>
+            <div className="flex justify-center items-center gap-4">
               <a href="tel:+40723864444" className="transition-all ease-in-out duration-150 hover:opacity-80">
                 <FaPhone className="w-9 h-9" />
               </a>
-            </div>
-            <div className="flex justify-center items-center gap-2">
               <a href="mailto:manuela.florea@yahoo.com" className="transition-all ease-in-out duration-150 hover:opacity-80">
                 <MdOutlineEmail className="w-9 h-9" />
               </a>
             </div>
+
           </div>
+
+
         </div>
       </div>
       <div className="bg-white text-second-text-color w-full absolute bottom-0 left-0 text-center">
