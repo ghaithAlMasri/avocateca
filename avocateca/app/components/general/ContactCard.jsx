@@ -13,8 +13,8 @@ const ContactCard = ({ logoPath, textTop, textBottom, color, height,link }) => {
       <Image src={logoPath} width={75} height={75} className="w-auto h-auto" alt="contact svg"/>
       <h5 className="font-bold text-lg text-center align-middle w-full">{textTop}</h5>
       {isMap ? 
-        <a href={link} className="px-[20px] py-[10px] bg-transparent border border-primary-color rounded-md text-primary-color font-bold transition-all ease-in-out duration-300 hover:bg-primary-color hover:text-white hover:opacity-95 hover:scale-110" target="_blank">{textBottom}</a> :
-        <a href={link} className="px-[20px] py-[10px] bg-transparent border border-primary-color rounded-md text-primary-color font-bold transition-all ease-in-out duration-300 hover:bg-primary-color hover:text-white hover:opacity-95 hover:scale-110">{textBottom}</a>  
+        <a href={link} className="px-[10px] py-[10px] bg-transparent border border-primary-color rounded-md text-primary-color font-bold transition-all ease-in-out duration-300 hover:bg-primary-color hover:text-white hover:opacity-95 hover:scale-110" target="_blank">{textBottom}</a> :
+        <a href={link} className="px-[10px] py-[10px] bg-transparent border border-primary-color rounded-md text-primary-color font-bold transition-all ease-in-out duration-300 hover:bg-primary-color hover:text-white hover:opacity-95 hover:scale-110">{textBottom}</a>  
     }
     </div>
   );

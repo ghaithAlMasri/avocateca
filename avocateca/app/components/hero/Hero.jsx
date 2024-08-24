@@ -61,9 +61,12 @@ const Hero = () => {
         <div className="flex justify-center items-center text-center w-full gap-10 text-wrap flex-wrap">
           <Card text={"Drept Penal"} iconPath={"/icon1.svg"} color="light-background-color" textColor={"text-color"} subText={"Apărare solidă pentru acuzații variate."} subTextColor={"second-text-color"} type={1}/>
           <Card text={"Dreptul Familiei"} iconPath={"/icon2.svg"} color="light-background-color" textColor={"text-color"} subText={"Rezolvarea cu compasiune a litigiilor."} subTextColor={"second-text-color"} type={1}/>
+          <Card text={"Drept Civil"} iconPath={"/icon5.svg"} color="light-background-color" textColor={"text-color"} subText={"Rezolvarea cu compasiune a litigiilor."} subTextColor={"second-text-color"} type={1}/>
           <Card text={"Drept Comercial"} iconPath={"/icon3.svg"} color="none" classes="bg-secondary-color-4" textColor={"white"} subText={"Soluții personalizate pentru provocări de afaceri."} subTextColor={"white"} type={1}/>
         </div>
       </div>
+
+      
 
 
 
