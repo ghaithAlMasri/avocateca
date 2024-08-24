@@ -53,7 +53,7 @@ const contact = () => {
 
           <div className="flex justify-center items-start w-full flex-col gap-2">
             <div className="flex justify-center items-center gap-4">
-              <a href="https://facebook.com" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
+              <a href="https://www.facebook.com/profile.php?id=61556797620669" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
                 <FaFacebook className="w-9 h-9" />
               </a>
               <a href="https://wa.me/40723864444" target="_blank" className="transition-all ease-in-out duration-150 hover:opacity-80">
