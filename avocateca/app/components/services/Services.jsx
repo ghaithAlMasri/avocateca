@@ -41,7 +41,7 @@ const Services = () => {
   };
 
   return (
-    <div className='overflow-hidden bg-light-background-color'>
+    <div className='overflow-hidden bg-light-background-color' id='services'>
 
         <div className='flex justify-center items-center w-full flex-col text-wrap align-middle text-center gap-3 p-10'>
           <h2 className='font-martel font-bold text-[30px] md:text-[40px] text-dark-background-color 2xl:text-[50px] 3xl:text-[60px]'>Pentru <span className='text-primary-color'>Specializarea</span> noastră</h2>
