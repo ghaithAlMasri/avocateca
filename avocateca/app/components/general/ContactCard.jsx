@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactCard = ({ logoPath, textTop, textBottom, color, height,link }) => {
   const textColor = color === "white" ? "text-color" : "white";
-  const isMap = !(link.startsWith("tel:") || link.startsWith("mailto:"));
+  const isMap = !(link?.startsWith("tel:") || link?.startsWith("mailto:"));
   const heightDeterminator = height === "full" ? "100%" : "90%"
   return (
     <div

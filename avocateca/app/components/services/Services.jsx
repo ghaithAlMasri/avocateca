@@ -1,66 +1,85 @@
 "use client"
-import {animate, motion, spring} from 'framer-motion'
+// import { motion } from 'framer-motion'
 import Card from '@/app/components/general/Card.jsx'
-
+import  Slider  from "react-slick";
+import "@/node_modules/slick-carousel/slick/slick-theme.css";
+import "@/node_modules/slick-carousel/slick/slick.css";
 
 const Services = () => {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        }
+      },
+      {
+        breakpoint: 760,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        }
+      },
+    ]
+  };
+
   return (
-    <motion.div
-    className='flex justify-center items-center flex-col pb-20 p-8 bg-light-background-color gap-8 overflow-hidden'
-    initial={{ opacity: 0 }}
-    whileInView={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    transition={{ duration: 1}}
-    id='services'
-    >
-      <div className='flex justify-center items-center flex-col md:max-w-[50%] sm:max-w-[90%] text-wrap align-middle text-center gap-3 p-10'>
-        <h2 className='font-martel font-bold text-[30px] md:text-[40px] text-dark-background-color 2xl:text-[50px] 3xl:text-[60px]'>Pentru <span className='text-primary-color'>Specializarea</span> noastră</h2>
-        <p className='font-serif md:text-sm text-second-text-color 2xl:text-2xl 3xl:text-3xl'>Serviciile noastre includ și nu se limitează la</p>
+    <div className='overflow-hidden bg-light-background-color'>
+
+        <div className='flex justify-center items-center w-full flex-col text-wrap align-middle text-center gap-3 p-10'>
+          <h2 className='font-martel font-bold text-[30px] md:text-[40px] text-dark-background-color 2xl:text-[50px] 3xl:text-[60px]'>Pentru <span className='text-primary-color'>Specializarea</span> noastră</h2>
+          <p className='font-serif md:text-sm text-second-text-color 2xl:text-2xl 3xl:text-3xl'>Serviciile noastre includ și nu se limitează la</p>
+        </div>
+
+        <div>
+          <Slider {...settings} className='flex justify-center items-center gap-6'>
+
+            <div className='p-10'>
+              <Card text={"Legate de trafic"} iconPath={"/service4.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Fraudă sau induce în eroare"} iconPath={"/service1.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Vătămări corporale"} iconPath={"/injury.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Cauțiuni sau mandate"} iconPath={"/service2.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Federale privind drogurile"} iconPath={"/service3.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Furt"} iconPath={"/theft.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+          </Slider>
       </div>
 
-
-
-      <motion.div
-        className="flex justify-center items-center text-center w-full gap-10 text-wrap flex-wrap"
-        initial = {{opacity: 0}}
-        whileInView={{opacity: 1}}
-        transition={{duration: 1}}
-      >
-        <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView = {{ opacity:1, rotate: [-180, 0], scale: [0.5,1,1.2,1], transition: {type: "spring", stiffness: 80, damping: 10} }}
-
-        >
-          <Card text={"Fraudă sau induce în eroare"} iconPath={"/service1.jpg"} color="light-background-color" textColor={"text-color"} subText={"Deslușind complexitatea activităților frauduloase și a practicilor înșelătoare, suntem specializați în protejarea clienților de prejudicii financiare și de afectarea reputației prin intervenții juridice strategice și investigații amănunțite."} subTextColor={"second-text-color"} type={3}/>
-        </motion.div>
-
-        <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView = {{ opacity:1, rotate: [-180, 0], scale: [0.5,1,1.2,1], transition: {type: "spring", stiffness: 80, damping: 10, delay: 0.2} }}
-        >
-          <Card text={"Cauțiuni sau mandate"} iconPath={"/service2.jpg"} color="light-background-color" textColor={"text-color"} subText={"Oferind asistență rapidă în parcurgerea complexității cauțiunilor și a mandatelor de cauțiune, expertiza noastră asigură rezolvarea în timp util și liniștea sufletească a clienților care se confruntă cu provocări juridice, facilitând revenirea lor rapidă la normalitate."} subTextColor={"second-text-color"} type={3}/>
-        </motion.div>
-
-        <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView = {{ opacity:1, rotate: [-180, 0], scale: [0.5,1,1.2,1], transition: {type: "spring", stiffness: 80, damping: 10, delay: 0.4} }}
-
-        >
-          <Card text={"Infracțiuni federale privind drogurile"} iconPath={"/service3.jpg"} color="light-background-color" textColor={"text-color"} subText={"Cu o înțelegere profundă a legilor și reglementărilor federale, oferim strategii de apărare cuprinzătoare adaptate pentru a atenua consecințele grave ale acuzațiilor federale de droguri, protejând drepturile și viitorul clienților noștri."} subTextColor={"second-text-color"} type={3}/>
-        </motion.div>
-
-        <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView = {{ opacity:1, rotate: [-180, 0], scale: [0.5,1,1.2,1], transition: {type: "spring", stiffness: 80, damping: 10, delay: 0.6} }}
-
-        >
-          <Card text={"Infracțiuni legate de trafic"} iconPath={"/service4.jpg"} color="light-background-color" textColor={"text-color"} subText={"Combatting the serious implications of trafficking offenses, our specialized legal team employs a proactive approach to defense, crafting robust strategies to challenge allegations and protect the liberties of those accused."} subTextColor={"second-text-color"} type={3}/>
-        </motion.div>
-      </motion.div>
-
-
-    </motion.div>
-  )
+    </div>
+  );
 }
 
 export default Services
