@@ -60,7 +60,7 @@ const About = () => {
 
             <div className="flex justify-start items-start flex-col">
               <h5 className="font-bold text-lg text-text-color text-start">Vă ajutăm să vă recuperați banii</h5>
-              <h4 className="text-start text-second-text-color text-sm">La fel de ușor ca 1,2,3...</h4>
+              <h4 className="text-start text-second-text-color text-sm">La fel de ușor ca "Bună ziua"</h4>
             </div>
 
           </div>

@@ -8,8 +8,9 @@ import "@/node_modules/slick-carousel/slick/slick.css";
 const Services = () => {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
+    arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,

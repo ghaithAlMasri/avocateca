@@ -24,8 +24,23 @@ function handleWindowSizeChange() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 5000,
+    customPaging: (i) => (
+        <div
+            style={{
+                width: "7px",
+                height: "7px",
+                color: "#D0A144",
+                background: "#D0A144",
+                marginTop: "25px",
+                borderRadius: "100%",
+                transition: "all",
+            }}
+
+        />
+      )
   };
 
 
