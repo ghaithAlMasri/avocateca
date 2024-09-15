@@ -56,7 +56,7 @@ function handleWindowSizeChange() {
 
               <div className={bigBoxClasses}>
                   <div className={mainTestClasses}>"Vă mulțumesc pentru profesionalismul de care ați dat dovadă și pentru onorariul convenabil. Am fost foarte mulțumit de serviciile oferite."</div>
-                  <div>Ludeascu Iulian Virgiliu Teodor</div>
+                  <div className={authorClasses}>Ludeascu Iulian Virgiliu Teodor</div>
               </div>
 
               <div className={bigBoxClasses}>
