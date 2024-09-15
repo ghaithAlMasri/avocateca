@@ -53,27 +53,43 @@ const Services = () => {
           <Slider {...settings} className='flex justify-center items-center gap-6'>
 
             <div className='p-10'>
-              <Card text={"Legate de trafic"} iconPath={"/service4.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Divorț"} iconPath={"/Divort 1.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
-              <Card text={"Fraudă sau induce în eroare"} iconPath={"/service1.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Divorț cu copil"} iconPath={"/Divorț cu copil 1.jpeg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
-              <Card text={"Vătămări corporale"} iconPath={"/injury.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Accidente rutiere"} iconPath={"/Accidente rutiere 2.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
-              <Card text={"Cauțiuni sau mandate"} iconPath={"/service2.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Înființări de societăți"} iconPath={"/Infiintari societati.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
-              <Card text={"Federale privind drogurile"} iconPath={"/service3.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Rele tratamente aplicate minorului"} iconPath={"/Rele tratamente aplicate minorului 4.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
-              <Card text={"Furt"} iconPath={"/theft.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Litigii de muncă"} iconPath={"/Litigii de munca 2.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Furt"} iconPath={"/Furt 1.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Stabilire domiciliu minor"} iconPath={"/stabilire domiciliu minor 3.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Redactare contracte"} iconPath={"/Redactare contracte 2.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+            </div>
+
+            <div className='p-10'>
+              <Card text={"Ucidere din culpă"} iconPath={"/Ucidere din culpa.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
           </Slider>
