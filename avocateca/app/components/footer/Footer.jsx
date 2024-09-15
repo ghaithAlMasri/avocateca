@@ -21,7 +21,7 @@ const contact = () => {
         <div className="flex justify-center items-center flex-wrap">
           <Image src={"/logo-white-transparent.png"} width={250} height={250} />
         </div>
-        <div className="flex justify-center items-start flex-col gap-2">
+        <div className="flex justify-center md:items-start items-center flex-col gap-2">
           <h5 className="text-lg font-bold">Links</h5>
           <a
             href="#about"
@@ -48,7 +48,7 @@ const contact = () => {
             Serviciile pe care le oferim
           </a>
         </div>
-        <div className="flex justify-center items-start flex-wrap flex-col gap-2">
+        <div className="flex justify-center md:items-start items-center flex-wrap flex-col gap-2">
           <h5 className="text-lg font-bold">Socials</h5>
 
           <div className="flex justify-center items-start w-full flex-col gap-2">
