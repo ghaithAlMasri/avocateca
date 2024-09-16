@@ -19,9 +19,9 @@ const card = ({ text, color, classes, iconPath, textColor, subText, subTextColor
             <div className={`text-center font-sans text-[12px] 2xl:text-[16px] text-${subTextColor} 3xl:text-[24px] 3xl:leading-[24px] leading-[20px] tracking-[0.1px] text-wrap max-w-[90%] md:text-sm`}>{subText}</div>
         </div> :
 
-        <div className={"flex justify-center items-center flex-col h-40 3xl:h-80 gap-3 p-8"}>
+        <div className={"flex justify-center items-center flex-col h-60 3xl:h-80 gap-3 p-8"}>
           <div className={`text-center font-martel md:text-[15px] font-bold 2xl:text-[20px] 3xl:text-[30px] text-${textColor} leading-[32px] tracking-[0.1px]`}>{text}</div>
-          <Image src={iconPath} width={120000} height={120000} className="object-contain flex justify-center items-center w-48 3xl:w-[40%]" alt="svgs" />
+          <Image src={iconPath} width={120000} height={120000} className="object-contain flex justify-center items-center w-[90%] 3xl:w-[40%]" alt="svgs" />
         </div>
       }
     </div>

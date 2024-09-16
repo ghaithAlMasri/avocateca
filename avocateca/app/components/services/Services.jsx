@@ -14,7 +14,7 @@ const Services = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 1024,
@@ -24,7 +24,7 @@ const Services = () => {
           infinite: true,
           dots: true,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 3500,
         }
       },
       {
@@ -35,7 +35,7 @@ const Services = () => {
           infinite: true,
           dots: true,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 3500,
         }
       },
     ]

@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   const NavItem = ({ href, children }) => (
-    <li onClick={handleMenuClick} className="hover:text-hover-color ease-in-out duration-300 hover:scale-90">
+    <li onClick={handleMenuClick} className="hover:text-hover-color ease-in-out duration-150 hover:scale-90">
       <a href={href}>{children}</a>
     </li>
   );
@@ -48,8 +48,8 @@ const Navbar = () => {
           <a href="#home">
             <Image
               src={"/logo-no-background.png"}
-              width={windowWidth > 1250 ? 125 : 100}
-              height={windowWidth > 1250 ? 125 : 100}
+              width={windowWidth > 1250 ? 60 : 30}
+              height={windowWidth > 1250 ? 60 : 30}
               alt={"Avocateca Logo"}
               className="object-contain w-auto h-auto"
               priority
@@ -90,8 +90,8 @@ const Navbar = () => {
           <a href="#home">
             <Image
               src={"/logo-no-background.png"}
-              width={windowWidth >= 2200 ? 300 : windowWidth > 1250 ? 125 : 100}
-              height={windowWidth >= 2200 ? 300 : windowWidth > 1250 ? 125 : 100}
+              width={windowWidth >= 2200 ? 150 : windowWidth > 1250 ? 60 : 30}
+              height={windowWidth >= 2200 ? 150 : windowWidth > 1250 ? 60 : 30}
               alt={"Avocateca Logo"}
               className="object-contain"
               priority
@@ -117,8 +117,8 @@ const Navbar = () => {
               <a href="#home">
                 <Image
                   src={"/logo-no-background.png"}
-                  width={windowWidth > 1250 ? 125 : 100}
-                  height={windowWidth > 1250 ? 125 : 100}
+                  width={windowWidth > 1250 ? 125 : 30}
+                  height={windowWidth > 1250 ? 125 : 30}
                   alt={"Avocateca Logo"}
                   className="object-contain w-auto h-auto"
                   priority
