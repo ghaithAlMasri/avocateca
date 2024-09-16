@@ -57,7 +57,7 @@ const Services = () => {
             </div>
 
             <div className='p-10'>
-              <Card text={"Divorț cu copil"} iconPath={"/Divorț cu copil 1.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
+              <Card text={"Divorț cu copil"} iconPath={"/divortLoadPlease.jpg"} color="light-background-color" textColor={"text-color"} type={3}/>
             </div>
 
             <div className='p-10'>
