@@ -19,7 +19,7 @@ const contact = () => {
     >
       <div className="flex justify-around items-center p-16 w-full h-full flex-wrap gap-5">
         <div className="flex justify-center items-center flex-wrap">
-          <Image src={"/logo-no-background.png"} width={250} height={250} />
+          <Image src={"/main-logo.png"} width={250} height={250} />
         </div>
         <div className="flex justify-center md:items-start items-center flex-col gap-2">
           <h5 className="text-lg font-bold">Links</h5>

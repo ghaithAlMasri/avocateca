@@ -47,7 +47,7 @@ const Navbar = () => {
         <div onClick={handleMenuClick}>
           <a href="#home">
             <Image
-              src={"/logo-no-background.png"}
+              src={"/main-logo.png"}
               width={windowWidth > 1250 ? 60 : 30}
               height={windowWidth > 1250 ? 60 : 30}
               alt={"Avocateca Logo"}
@@ -89,7 +89,7 @@ const Navbar = () => {
         <div className="flex justify-center items-center">
           <a href="#home">
             <Image
-              src={"/logo-no-background.png"}
+              src={"/main-logo.png"}
               width={windowWidth >= 2200 ? 150 : windowWidth > 1250 ? 60 : 30}
               height={windowWidth >= 2200 ? 150 : windowWidth > 1250 ? 60 : 30}
               alt={"Avocateca Logo"}
@@ -116,7 +116,7 @@ const Navbar = () => {
             <div className="flex justify-center items-center">
               <a href="#home">
                 <Image
-                  src={"/logo-no-background.png"}
+                  src={"/main-logo.png"}
                   width={windowWidth > 1250 ? 125 : 30}
                   height={windowWidth > 1250 ? 125 : 30}
                   alt={"Avocateca Logo"}
